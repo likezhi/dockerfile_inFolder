@@ -1,5 +1,5 @@
 pipeline {
-    agent { dockerfile {dir 'nginx/Dockerfile'} }
+    agent { dockerfile {dir 'nginx'} }
     stages {
         stage('Test') {
             steps {
